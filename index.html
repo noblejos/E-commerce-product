@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Karla:ital,wght@0,700;1,400&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="logo"><img src="images/logo.svg" alt="logo" /></div>
+          <div class="nav-links">
+            <ul>
+              <li><a href="##">Collections </a></li>
+              <li><a href="##">Men</a></li>
+              <li><a href="##"> Women </a></li>
+              <li><a href="##">About</a></li>
+              <li><a href="##">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="cart-profile">
+          <div class="cart">
+            <img src="images/icon-cart.svg" alt="" />
+            <span class="cart-index"></span>
+          </div>
+          <div class="profile">
+            <img src="images/image-avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- DROP DOWN CART -->
+        <div id="myDropdown" class="dropdown-content">
+          <p>Cart</p>
+          <div class="cart-items">
+            <p class="empty-cart">Your cart is empty</p>
+            <ul class="list"></ul>
+          </div>
+          <div class="checkout">
+            <a href="##">Checkout</a>
+          </div>
+        </div>
+      </header>
+      <div class="main-content">
+        <div class="desktop-images">
+          <div class="main-image">
+            <img src="images/image-product-1.jpg" alt="" />
+          </div>
+          <div class="thumbnail">
+            <div class="one">
+              <img src="images/image-product-1-thumbnail.jpg" alt="" />
+            </div>
+            <div class="two">
+              <img src="images/image-product-2-thumbnail.jpg" alt="" />
+            </div>
+            <div class="three">
+              <img src="images/image-product-3-thumbnail.jpg" alt="" />
+            </div>
+            <div class="four">
+              <img src="images/image-product-4-thumbnail.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="mobile">
+          <!-- MOBILE IMAGE DISPLAY -->
+          <div class="mobile-images">
+            <div class="item main">
+              <img src="images/image-product-1.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="images/image-product-2.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="images/image-product-3.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="images/image-product-4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="navigation">
+            <img class="next nav-btn" src="images/icon-next.svg" alt="" />
+            <img class="prev nav-btn" src="images/icon-previous.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="items">
+          <h3>Sneaker Company</h3>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <span class="price"> $125.00</span>
+          <span class="discount">50%</span>
+          <br />
+          <span class="price-slash">$250.00</span>
+          <div class="product-order">
+            <div class="order">
+              <img id="minus" src="images/icon-minus.svg" alt="" />
+              <p id="order-counter" class="orderEl"></p>
+              <img id="plus" src="images/icon-plus.svg" alt="" />
+            </div>
+            <div class="add-cart">
+              <img src="images/icon-cart.svg" alt="" />
+              <p><a href="##">Add to cart</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
